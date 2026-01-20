@@ -14,6 +14,10 @@ Route::get('/', function () {
     return Inertia::render('portofolio/homepage');
 })->name('home');
 
+Route::get('/home', function () {
+    return Inertia::render('homepage');
+})->name('test');
+
 Route::get('/about', function () {
     return Inertia::render('portofolio/about');
 })->name('about');

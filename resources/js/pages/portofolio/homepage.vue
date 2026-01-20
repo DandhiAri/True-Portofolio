@@ -179,6 +179,7 @@ section {
     font-weight: bold;
     color: #333;
 }
+
 .contact-us {
     /* text-align: center; */
     display: grid;
