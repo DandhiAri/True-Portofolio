@@ -3,10 +3,11 @@
         <Head title="Portofolio home"></Head>
         <Herobanner :name="portofolioData.name" :title="portofolioData.title" />
         <Contactinfo :email="portofolioData.contact.email" :phone="portofolioData.contact.phone" :github="portofolioData.contact.github"/>
-
-        <Quotesection :quotes="portofolioData.quotes" /> 
-
-        <Contactsection />
+        
+        <section class="p-15">
+            <Quotesection :quotes="portofolioData.quotes" /> 
+            <!-- <Contactsection /> -->
+        </section>
 
     </portofoliolayout>
 </template>
