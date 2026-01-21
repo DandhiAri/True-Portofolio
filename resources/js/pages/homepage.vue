@@ -17,8 +17,10 @@ const portofolioData = {
     name: 'Dandhi Dwi Ari Prasetya',
     title: 'WEB DEVELOPER',
     email: 'dandhiari@gmail.com',
-    phone: '+62 8214 1794 129',
-    github: 'https://github.com/DandhiAri'
+    contact :{
+        phone: '+62 8214 1794 129',
+        github: 'https://github.com/DandhiAri'
+    }
 };
 
 </script>
