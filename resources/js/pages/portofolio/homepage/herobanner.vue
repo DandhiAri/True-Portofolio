@@ -1,5 +1,5 @@
 <template>
-    <section class="h-screen bg-gray-100 flex flex-col justify-center items-center text-2xl font-bold text-gray-800">
+    <section class="h-screen bg-gray-100 flex flex-col justify-center items-center text-4xl font-bold text-gray-800">
         <p>{{ name  }}</p>
         <p>{{ title  }}</p>
     </section>
