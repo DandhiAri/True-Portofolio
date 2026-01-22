@@ -1,0 +1,15 @@
+[33m847bcce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: checkout: moving from section/footer to main
+[33m53156be[m[33m ([m[1;31morigin/section/footer[m[33m, [m[1;32msection/footer[m[33m)[m HEAD@{1}: commit: add footer section on homepage, change element displaying full html symbols and text on footer, add CSS style on footer and add project section on component homepage file
+[33m3369d7a[m[33m ([m[1;31morigin/section/quote-section[m[33m, [m[1;32msection/quote-section[m[33m)[m HEAD@{2}: checkout: moving from section/quote-section to section/footer
+[33m3369d7a[m[33m ([m[1;31morigin/section/quote-section[m[33m, [m[1;32msection/quote-section[m[33m)[m HEAD@{3}: reset: moving to HEAD~1
+[33mec832a3[m HEAD@{4}: commit: add footer section on homepage, change element displaying full html symbols and text on footer, add CSS style on footer and add project section on component homepage file
+[33m3369d7a[m[33m ([m[1;31morigin/section/quote-section[m[33m, [m[1;32msection/quote-section[m[33m)[m HEAD@{5}: commit: rename vue component homepage from projectgrid to projectsection
+[33mb28dfd9[m HEAD@{6}: commit: add some padding on body content below contact info, fix max width container to fit width container on quote and change quotes font size
+[33ma2d0ea1[m HEAD@{7}: commit: add quote section and add quote values on homepage for quote section
+[33mfb40329[m HEAD@{8}: commit: add separate file for quote section
+[33m847bcce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{9}: checkout: moving from main to section/quote-section
+[33m847bcce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{10}: commit: add contact info section and change font size on herobanner
+[33m8d1d46d[m HEAD@{11}: commit: add : homepage folder with component folder
+[33m18653bf[m HEAD@{12}: commit (amend): -
+[33m8b1ba9f[m HEAD@{13}: Branch: renamed refs/heads/master to refs/heads/main
+[33m8b1ba9f[m HEAD@{15}: commit (initial): monolothic homepage scripts and also first time push
