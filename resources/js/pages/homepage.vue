@@ -9,6 +9,7 @@
             <!-- <Contactsection /> -->
         </section>
 
+        <Footer :copyright="portofolioData.footer" />
     </portofoliolayout>
 </template>
 <style>
@@ -20,6 +21,7 @@
 <script setup lang="ts">
 import Contactinfo from './portofolio/homepage/contactinfo.vue';
 import Contactsection from './portofolio/homepage/contactsection.vue';
+import Footer from './portofolio/homepage/footer.vue';
 import Herobanner from './portofolio/homepage/herobanner.vue';
 import Quotesection from './portofolio/homepage/quotesection.vue';
 
@@ -43,9 +45,8 @@ const portofolioData = {
             text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
             link: 'More about me!'
         }
-    ]
-
-        
+    ],
+    footer: "&copy; 2026 Dandhi Dwi Ari Prasetya. All rights reserved.",
 };
 
 </script>
