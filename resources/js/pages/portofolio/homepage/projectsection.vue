@@ -8,7 +8,7 @@
         </div>
         <div class="mt-3 gap-4 flex flex-wrap justify-center">
             <div v-for="project in projects" class="m-1">
-                <img class="w-145 rounded-xl" :src="project.imgproject" :alt="project.nameproject" srcset="">
+                <img class="w-150 rounded-xl" :src="project.imgproject" :alt="project.nameproject" srcset="">
                 <p class="text-2xl mt-1"> {{ project.nameproject }} &#62;&#62;&#62;</p>
             </div>
         </div>
