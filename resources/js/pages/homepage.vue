@@ -8,7 +8,7 @@
 
             <Quotesection :quotes="portofolioData.quotes" /> 
             <!-- <Contactsection /> -->
-            <Projectsection />
+            <Projectsection :projects="portofolioData.project.projects" :title="portofolioData.project.title" :quote="portofolioData.project.quote"/>
 
 
         </section>
@@ -51,6 +51,28 @@ const portofolioData = {
             link: 'More about me!'
         }
     ],
+    project:{
+        title:"My Work So far... and yet still continue!",
+        quote:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos necessitatibus numquam quo sit distinctio nisi, exercitationem officia.",
+        projects:[
+            {
+                imgproject:"img/projects/dummy.png",
+                nameproject:"project name"
+            },
+            {
+                imgproject:"img/projects/dummy.png",
+                nameproject:"project name"
+            },
+            {
+                imgproject:"img/projects/dummy.png",
+                nameproject:"project name"
+            },            
+            {
+                imgproject:"img/projects/dummy.png",
+                nameproject:"project name"
+            },
+        ]
+    },
     footer: "&copy; 2026 Dandhi Dwi Ari Prasetya. All rights reserved.",
 };
 
