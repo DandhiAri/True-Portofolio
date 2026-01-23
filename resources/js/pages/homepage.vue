@@ -5,8 +5,12 @@
         <Contactinfo :email="portofolioData.contact.email" :phone="portofolioData.contact.phone" :github="portofolioData.contact.github"/>
         
         <section class="p-15">
+
             <Quotesection :quotes="portofolioData.quotes" /> 
             <!-- <Contactsection /> -->
+            <Projectsection />
+
+
         </section>
 
         <Footer :copyright="portofolioData.footer" />
@@ -23,6 +27,7 @@ import Contactinfo from './portofolio/homepage/contactinfo.vue';
 import Contactsection from './portofolio/homepage/contactsection.vue';
 import Footer from './portofolio/homepage/footer.vue';
 import Herobanner from './portofolio/homepage/herobanner.vue';
+import Projectsection from './portofolio/homepage/projectsection.vue';
 import Quotesection from './portofolio/homepage/quotesection.vue';
 
 const portofolioData = {
@@ -42,7 +47,7 @@ const portofolioData = {
         },
         {
             position: 'right',
-            text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
+            text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
             link: 'More about me!'
         }
     ],
