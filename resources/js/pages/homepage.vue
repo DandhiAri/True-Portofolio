@@ -5,8 +5,12 @@
         <Contactinfo :email="portofolioData.contact.email" :phone="portofolioData.contact.phone" :github="portofolioData.contact.github"/>
         
         <section class="p-15">
+
             <Quotesection :quotes="portofolioData.quotes" /> 
             <!-- <Contactsection /> -->
+            <Projectsection :projects="portofolioData.project.projects" :title="portofolioData.project.title" :quote="portofolioData.project.quote"/>
+
+
         </section>
 
         <Footer :copyright="portofolioData.footer" />
@@ -23,6 +27,7 @@ import Contactinfo from './portofolio/homepage/contactinfo.vue';
 import Contactsection from './portofolio/homepage/contactsection.vue';
 import Footer from './portofolio/homepage/footer.vue';
 import Herobanner from './portofolio/homepage/herobanner.vue';
+import Projectsection from './portofolio/homepage/projectsection.vue';
 import Quotesection from './portofolio/homepage/quotesection.vue';
 
 const portofolioData = {
@@ -42,10 +47,32 @@ const portofolioData = {
         },
         {
             position: 'right',
-            text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
+            text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
             link: 'More about me!'
         }
     ],
+    project:{
+        title:"My Work So far... and yet still continue!",
+        quote:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos necessitatibus numquam quo sit distinctio nisi, exercitationem officia.",
+        projects:[
+            {
+                imgproject:"img/projects/dummy.png",
+                nameproject:"project name"
+            },
+            {
+                imgproject:"img/projects/dummy.png",
+                nameproject:"project name"
+            },
+            {
+                imgproject:"img/projects/dummy.png",
+                nameproject:"project name"
+            },            
+            {
+                imgproject:"img/projects/dummy.png",
+                nameproject:"project name"
+            },
+        ]
+    },
     footer: "&copy; 2026 Dandhi Dwi Ari Prasetya. All rights reserved.",
 };
 

@@ -7,7 +7,7 @@
                 <p>{{ quote.source }}</p>
             </div>
             <div v-else>
-                <p class="text-sm">{{ quote.text }}</p>
+                <p class="text-xs">{{ quote.text }}</p>
                 <p class="text-black font-bold text-lg mt-2">{{ quote.link }}</p>
             </div>
         </div>
