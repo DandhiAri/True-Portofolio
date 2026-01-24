@@ -1,26 +1,36 @@
 <template>
-    <div class="">
-        Have a project idea? <strong>Let's Work Together!</strong><br>
-        Or maybe just saying hi&#8230;
-        <span style="text-decoration: underline;">Let's talk!</span>
-        <hr class="line-on-contact">
+    <div class="mt-10 grid grid-cols-[80%_20%]">
+        <div class="text-4xl">
+            <div v-html="text"></div>
+            <hr class="mt-2">
+        </div>
+        <div class="m-1 row-span-2 rounded-md py-[3em] px-[1em] bg-blue-700 font-bold text-2xl text-white text-center ">
+            {{ btn }}
+        </div>
+        <div class="flex text-gray text-lg">
+            <div class="mr-10">
+                <p class="text-xs font-bold">Email:</p>
+                {{ email }}
+            </div>
+            <div>
+                <p class="text-xs font-bold">Phone:</p>
+                {{ phone }}
+            </div>
+        </div>
+        <form action="" method="post">
+            <input type="text" name="subject" id="">
+            <input type="text" name="content" id="">
+            <input type="submit" value="">
+        </form>
     </div>
-    <div class="btn-contact">
-        Contact Me!
-    </div>
-    <div class="contact-context">
-        <p>
-        <div class="sml-context">Email:</div>
-        dandhiari@gmail.com
-        </p>
-        <p>
-        <div class="sml-context">Phone:</div>
-        +62 821 4179 4129
-        </p>
-    </div>
-    <form action="" method="post">
-        <input type="text" name="subject" id="">
-        <input type="text" name="content" id="">
-        <input type="submit" value="">
-    </form>
 </template>
+<script setup lang="ts">
+interface Props {
+    text:string;
+    btn:string;
+    email:string;
+    phone:string;
+}
+
+defineProps<Props>();
+</script>

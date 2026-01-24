@@ -180,6 +180,20 @@ section {
     color: #333;
 }
 
+.contact-info {
+    background-color: #333;
+    color: white;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    padding: 0.5rem;
+    height: 10vh;
+}
+.contact-info p a{
+    text-decoration: underline;
+}
+
 .contact-us {
     /* text-align: center; */
     display: grid;
@@ -205,19 +219,6 @@ section {
 }
 .contact-context p {
     margin-right: 2em;
-}
-.contact-info {
-    background-color: #333;
-    color: white;
-    margin: auto;
-    display: grid;
-    text-align: center;
-    align-content: center;
-    padding: 0.5rem;
-    height: 10vh;
-}
-.contact-info p a{
-    text-decoration: underline;
 }
 .line-on-contact{
     margin-top:20px;    

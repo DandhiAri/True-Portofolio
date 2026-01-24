@@ -2,7 +2,7 @@
     <portofoliolayout>
         <Head title="Portofolio home"></Head>
         <Herobanner :name="portofolioData.name" :title="portofolioData.title" />
-        <Contactinfo :email="portofolioData.contact.email" :phone="portofolioData.contact.phone" :github="portofolioData.contact.github"/>
+        <Contactinfo :email="portofolioData.contactinfo.email" :phone="portofolioData.contactinfo.phone" :github="portofolioData.contactinfo.github"/>
         
         <section class="p-15">
 
@@ -10,7 +10,7 @@
             <!-- <Contactsection /> -->
             <Projectsection :projects="portofolioData.project.projects" :title="portofolioData.project.title" :quote="portofolioData.project.quote"/>
 
-
+            <Contactsection :text="portofolioData.contactsection.text" :btn="portofolioData.contactsection.btn" :email="portofolioData.contactinfo.email" :phone="portofolioData.contactinfo.phone" />
         </section>
 
         <Footer :copyright="portofolioData.footer" />
@@ -33,7 +33,7 @@ import Quotesection from './portofolio/homepage/quotesection.vue';
 const portofolioData = {
     name: 'Dandhi Dwi Ari Prasetya',
     title: 'WEB DEVELOPER',
-    contact: {
+    contactinfo: {
         email: 'dandhiari@gmail.com',
         phone: '+62 8214 1794 129',
         github: 'https://github.com/DandhiAri'
@@ -72,6 +72,10 @@ const portofolioData = {
                 nameproject:"project name"
             },
         ]
+    },
+    contactsection:{
+        text:"Have a project idea? <strong>Let's Work Together!</strong><br>Or maybe just saying hi&#8230;<span class='underline'>Let's talk!</span>",
+        btn:"Contact Us!",
     },
     footer: "&copy; 2026 Dandhi Dwi Ari Prasetya. All rights reserved.",
 };
