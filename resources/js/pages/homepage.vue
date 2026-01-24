@@ -10,7 +10,7 @@
             <!-- <Contactsection /> -->
             <Projectsection :projects="portofolioData.project.projects" :title="portofolioData.project.title" :quote="portofolioData.project.quote"/>
 
-            <Contactsection  />
+            <Contactsection :text="portofolioData.contactsection.text" :btn="portofolioData.contactsection.btn" :email="portofolioData.contactinfo.email" :phone="portofolioData.contactinfo.phone" />
         </section>
 
         <Footer :copyright="portofolioData.footer" />
@@ -75,7 +75,7 @@ const portofolioData = {
     },
     contactsection:{
         text:"Have a project idea? <strong>Let's Work Together!</strong><br>Or maybe just saying hi&#8230;<span class='underline'>Let's talk!</span>",
-
+        btn:"Contact Us!",
     },
     footer: "&copy; 2026 Dandhi Dwi Ari Prasetya. All rights reserved.",
 };
