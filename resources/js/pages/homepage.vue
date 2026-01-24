@@ -10,7 +10,7 @@
             <!-- <Contactsection /> -->
             <Projectsection :projects="portofolioData.project.projects" :title="portofolioData.project.title" :quote="portofolioData.project.quote"/>
 
-
+            <Contactsection />
         </section>
 
         <Footer :copyright="portofolioData.footer" />
