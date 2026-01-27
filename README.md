@@ -23,16 +23,7 @@ I am currently refining this portfolio to better showcase my engineering capabil
 
 ---
 
-## 📂 Key Projects
 
-### 1. [Project Name 1] - Full-Stack Web App
-* **Description:** A [Brief description, e.g., Inventory System] built to solve [Problem].
-* **Tech:** Laravel, MySQL, Bootstrap.
-* **Key Feature:** Implementation of secure RESTful APIs for data interchange.
-
-### 2. Ubuntu Server Management
-* **Description:** Self-hosting experiments and server hardening.
-* **Focus:** Managing firewalls, secure tunnels, and automated backups.
 
 ---
 
