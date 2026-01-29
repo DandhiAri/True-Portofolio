@@ -19,11 +19,7 @@ I am currently refining this portfolio to better showcase my engineering capabil
 - [ ] Integrate GitHub API to show live repository stats
 - [ ] Deploy secure SSL via Nginx on my Ubuntu environment
 
-> **Note to Recruiters:** I believe in "Building in Public." You can track my daily commits and progress in the [Commit History](../../commits/main).
-
----
-
-
+> **Note to Recruiters:** I believe in "Building in Public." You can track my daily commits and progress in the Commit History(https://github.com/DandhiAri/True-Portofolio/commits/main/).
 
 ---
 
