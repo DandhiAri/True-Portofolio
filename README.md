@@ -17,9 +17,7 @@ Welcome to the central hub of my professional work. This repository hosts my per
 I am currently refining this portfolio to better showcase my engineering capabilities.
 - [ ] Finalize responsive UI for Projects section
 - [ ] Integrate GitHub API to show live repository stats
-- [ ] Deploy secure SSL via Nginx on my Ubuntu environment
-
-> **Note to Recruiters:** I believe in "Building in Public." You can track my daily commits and progress in the Commit History(https://github.com/DandhiAri/True-Portofolio/commits/main/).
+- [ ] Deploy secure SSL via Nginx on my Ubuntu environment.
 
 ---
 
@@ -27,7 +25,7 @@ I am currently refining this portfolio to better showcase my engineering capabil
 I hold an Associate Degree in **Computer Engineering**. My unique edge is the "Full-System" perspective: I don't just write the code; I understand the network it travels through and the server it lives on.
 
 - 📍 Location: Jember, East Java (Available for Remote/On-site)
-- 📫 Connect with me: [Your Email or LinkedIn Link]
+- 📫 Connect with me: dandhiari@gmail.com
 - ⚡ Fun Fact: I prefer the efficiency of the terminal over a GUI.
 
 ---
