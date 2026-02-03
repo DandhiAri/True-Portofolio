@@ -75,7 +75,7 @@ const portofolioData = {
     },
     contactsection:{
         text:"Have a project idea? <strong>Let's Work Together!</strong><br>Or maybe just saying hi&#8230;<span class='underline'>Let's talk!</span>",
-        btn:"Contact Us!",
+        btn:"Contact Me!",
     },
     footer: "&copy; 2026 Dandhi Dwi Ari Prasetya. All rights reserved.",
 };
