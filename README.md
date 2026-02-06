@@ -1,11 +1,11 @@
-# 🚀 Personal Portfolio & Tech Lab
+# Personal Portfolio & Tech Lab
 **Computer Engineering Graduate | Laravel Developer | Linux Enthusiast**
 
 Welcome to the central hub of my professional work. This repository hosts my personal portfolio website and serves as a testing ground for my projects in full-stack development and network infrastructure.
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## Tech Stack & Skills
 * **Backend:** PHP (Laravel), MySQL
 * **Frontend:** HTML5, CSS3, JavaScript (Learning React/Vue)
 * **Infrastructure:** Ubuntu Server 24.04, Nginx, RESTful API Design
@@ -13,7 +13,7 @@ Welcome to the central hub of my professional work. This repository hosts my per
 
 ---
 
-## 🚧 Project Status: Under Construction
+## Project Status: Under Construction
 I am currently refining this portfolio to better showcase my engineering capabilities.
 - [ ] Finalize responsive UI for Projects section
 - [ ] Integrate GitHub API to show live repository stats
@@ -21,12 +21,11 @@ I am currently refining this portfolio to better showcase my engineering capabil
 
 ---
 
-## 🎓 About Me
+## About Me
 I hold an Associate Degree in **Computer Engineering**. My unique edge is the "Full-System" perspective: I don't just write the code; I understand the network it travels through and the server it lives on.
 
-- 📍 Location: Jember, East Java (Available for Remote/On-site)
-- 📫 Connect with me: dandhiari@gmail.com
-- ⚡ Fun Fact: I prefer the efficiency of the terminal over a GUI.
+- Location: Jember, East Java (Available for Remote/On-site)
+- Connect with me: dandhiari@gmail.com
 
 ---
 *“Diligence, organization, and a bias for action.”*
