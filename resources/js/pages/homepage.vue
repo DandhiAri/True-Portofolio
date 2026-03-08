@@ -2,7 +2,7 @@
     <portofoliolayout>
         <Head title="Portofolio home"></Head>
         <Herobanner :name="portofolioData.name" :title="portofolioData.title" />
-        <Contactinfo :email="portofolioData.contactinfo.email" :phone="portofolioData.contactinfo.phone" :github="portofolioData.contactinfo.github"/>
+        <Contactinfo :email="portofolioData.contactinfo.email" :github="portofolioData.contactinfo.github"/>
         
         <section class="p-15">
 
@@ -34,9 +34,7 @@ const portofolioData = {
     name: 'Dandhi Dwi Ari Prasetya',
     title: 'WEB DEVELOPER',
     contactinfo: {
-        email: 'dandhiari@gmail.com',
-        phone: '+62 8214 1794 129',
-        github: 'https://github.com/DandhiAri'
+        email: 'dandhiari (at) gmail [dot] com'
     },
     quotes: [
         {

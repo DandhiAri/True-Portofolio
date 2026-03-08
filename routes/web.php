@@ -10,13 +10,17 @@ use Laravel\Fortify\Features;
 //     ]);
 // })->name('home');
 
-Route::get('/', function () {
+Route::get('/second', function () {
     return Inertia::render('homepage');
 })->name('home');
 
 Route::get('/about', function () {
     return Inertia::render('portofolio/about');
 })->name('about');
+
+Route::get('/', function () {
+    return Inertia::render('secondpage');
+})->name('second');
 
 Route::get('dashboard', function () {
     return Inertia::render('Dashboard');
