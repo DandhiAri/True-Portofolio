@@ -17,24 +17,24 @@
         },
         project:{
             title:"My Work So far... and yet still continue!",
-            quote:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos necessitatibus numquam quo sit distinctio nisi, exercitationem officia.",
+            // quote:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos necessitatibus numquam quo sit distinctio nisi, exercitationem officia.",
             projects:[
                 {
                     imgproject:"img/projects/dummy.png",
-                    nameproject:"project name"
+                    nameproject:"INIT (Inventory IT)"
                 },
                 {
                     imgproject:"img/projects/dummy.png",
-                    nameproject:"project name"
+                    nameproject:"DFOOD"
                 },
                 {
                     imgproject:"img/projects/dummy.png",
-                    nameproject:"project name"
+                    nameproject:"Art Of Manunggalan 9.0"
                 },            
-                {
-                    imgproject:"img/projects/dummy.png",
-                    nameproject:"project name"
-                },
+                // {
+                //     imgproject:"img/projects/dummy.png",
+                //     nameproject:"Landing Page of Nusantara Tama"
+                // },
             ]
         },
     }
