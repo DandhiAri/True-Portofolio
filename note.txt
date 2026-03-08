@@ -1,0 +1,63 @@
+STRUCTURED OF VUE
+
+<script setup>
+// 1. Define the props you are passing from the parent
+const props = defineProps({
+    title: String,
+    quote: String,
+    projects: Array
+});
+
+// 2. Logic (Optional: e.g., a function to format the date)
+const formatDate = (dateString) => {
+    return new Date(dateString).toLocaleDateString();
+};
+
+// 3. Lifecycle (Optional: run code when the page loads)
+onMounted(() => {
+    console.log("Portfolio Projects Loaded!");
+});
+</script>
+
+<template>
+    <section>
+        <h2>{{ title }}</h2>
+        <p><i>"{{ quote }}"</i></p>
+        
+        <div v-for="project in projects" :key="project.id">
+            <h3>{{ project.name }}</h3>
+            <span>Created on: {{ formatDate(project.created_at) }}</span>
+        </div>
+    </section>
+</template>
+
+
+    const portofolioData = {
+        name: 'Dandhi Dwi Ari Prasetya',
+        title: 'WEB DEVELOPER',
+        contactinfo: {
+            email: 'dandhiari@gmail.com '
+        },
+        project:{
+            title:"My Work So far... and yet still continue!",
+            // quote:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos necessitatibus numquam quo sit distinctio nisi, exercitationem officia.",
+            projects:[
+                {
+                    imgproject:"img/projects/dummy.png",
+                    nameproject:"INIT (Inventory IT)"
+                },
+                {
+                    imgproject:"img/projects/dummy.png",
+                    nameproject:"DFOOD"
+                },
+                {
+                    imgproject:"img/projects/dummy.png",
+                    nameproject:"Art Of Manunggalan 9.0"
+                },            
+                // {
+                //     imgproject:"img/projects/dummy.png",
+                //     nameproject:"Landing Page of Nusantara Tama"
+                // },
+            ]
+        },
+    }
