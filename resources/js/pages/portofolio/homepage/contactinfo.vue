@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-neutral-900 p-5 grid content-center text-white text-center h-15">
+    <div class="bg-neutral-900 text-xl p-5 grid content-center text-white text-center h-15">
         <p class="flex justify-center"> 
             <div class="cursor-pointer underline mr-1" @click="copyURL"> Email: dandhiari (at) gmail [dot] com </div> | 
             <div v-show="phone"> Phone: {{phone}} } | </div> 

@@ -1,5 +1,5 @@
 <template>
-    <section class="mt-20">
+    <section class="my-10">
         <div class="text-4xl font-bold flex justify-between">
             {{ title }}
             <p class="text-xs font-normal text-fit text-gray-600 max-w-xs">
