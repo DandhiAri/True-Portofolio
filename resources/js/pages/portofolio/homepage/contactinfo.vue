@@ -2,7 +2,7 @@
     <div class=" bg-neutral-900 text-xl p-5 grid content-center text-white text-center h-15">
         <p class="flex justify-center"> 
             <div class="cursor-pointer underline mr-1" @click="copyURL"> Email: dandhiari (at) gmail [dot] com </div> | 
-            <a class="underline ml-1" href="{{ github }}">Github: @DandhiAri</a>
+            <a class="underline ml-1" :href="props.github" target="_blank">Github: @DandhiAri</a>
         </p>
     </div>
 </template>

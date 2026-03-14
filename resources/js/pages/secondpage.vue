@@ -4,7 +4,7 @@
             <Herobanner :name="portofolioData.name" :title="portofolioData.title" />
         </div>
 
-        <Contactinfo :email="portofolioData.contactinfo.email" />
+        <Contactinfo :email="portofolioData.contactinfo.email" :github="portofolioData.contactinfo.github" />
         <section class="body-content py-10">
             <Projectsection :title="portofolioData.projects.title" :quote="portofolioData.projects.quote" :projects="portofolioData.projects.project"/>
         </section>
@@ -19,10 +19,11 @@
         name: 'Dandhi Dwi Ari Prasetya',
         title: 'WEB DEVELOPER | NETWORK ENGINEER | IOT ENGINEER',
         contactinfo: {
-            email: 'dandhiari@gmail.com '
+            email: 'dandhiari@gmail.com ',
+            github: 'https://github.com/DandhiAri'
         },
         projects:{
-            title:"My Work So far... and yet still CONTINUE !",
+            title:"My Work So far... and yet still CONTINUE!",
             // quote:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos necessitatibus numquam quo sit distinctio nisi, exercitationem officia.",
             project:[
                 {
@@ -44,5 +45,8 @@
 <style scoped>
     .body-content{
         margin: 0 5%;
+    }
+    ::-webkit-scrollbar{
+        display: none;
     }
 </style>
