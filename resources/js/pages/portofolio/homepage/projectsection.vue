@@ -6,9 +6,9 @@
                 {{ quote }}
             </p>
         </div>
-        <div class="mt-3 gap-4 flex flex-wrap justify-center">
-            <div v-for="project in projects" class="max-w-md m-1">
-                <img class="w-150 rounded-xl" :src="project.imgproject" :alt="project.nameproject" srcset="">
+        <div class="mt-3 gap-4 flex flex-wrap las justify-center">
+            <div v-for="project in projects" class="max-w-sm m-1">
+                <img class="w-100 rounded-xl" :src="project.imgproject" :alt="project.nameproject" srcset="">
                 <p class="text-2xl mt-2"> {{ project.nameproject }}</p>
                 <p class="text-gray-600 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis adipisci eaque consequuntur earum expedita nulla mollitia porro magnam ducimus sit, molestias facere soluta possimus aperiam doloribus itaque eum corrupti quod.</p>
                 <div class="flex flex-wrap mt-2 gap-2">
@@ -25,7 +25,6 @@
 interface Project{
     imgproject:string;
     nameproject:string;
-    // description:string;
 }
 
 interface Props{

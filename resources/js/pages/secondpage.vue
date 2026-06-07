@@ -8,18 +8,20 @@
         <section class="body-content py-10">
             <Projectsection :title="portofolioData.projects.title" :quote="portofolioData.projects.quote" :projects="portofolioData.projects.project"/>
         </section>
+        <Footer :copyright="portofolioData.footer" />
     </div>
 </template>
 <script setup>
     import Herobanner from './portofolio/homepage/herobanner.vue';
     import Contactinfo from './portofolio/homepage/contactinfo.vue';
     import Projectsection from './portofolio/homepage/projectsection.vue';
-    
+    import Footer from './portofolio/homepage/footer.vue';
+
     const portofolioData = {
         name: 'Dandhi Dwi Ari Prasetya',
         title: 'WEB DEVELOPER | NETWORK ENGINEER | IOT ENGINEER',
         contactinfo: {
-            email: 'dandhiari@gmail.com ',
+            email: 'dandhiari@gmail.com',
             github: 'https://github.com/DandhiAri'
         },
         projects:{
@@ -40,13 +42,15 @@
                 },            
             ]
         },
+        footer:"Copyright &copy; 2026 Dandhi Dwi Ari Prasetya. All rights reserved.",
+        
     }
 </script>
 <style scoped>
     .body-content{
         margin: 0 5%;
     }
-    ::-webkit-scrollbar{
-        display: none;
+    body{
+        -webkit-overflow-scrolling: touch;
     }
 </style>
