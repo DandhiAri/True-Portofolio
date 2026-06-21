@@ -1,13 +1,13 @@
 <template>
     <section class="my-10">
-        <div class="text-4xl font-bold flex justify-between">
+        <div class="text-4xl font-bold text-center">
             {{ title }}
-            <p class="text-xs font-normal text-fit text-gray-600 max-w-xs">
+            <!-- <p class="text-xs font-normal text-fit text-gray-600 max-w-xs">
                 {{ quote }}
-            </p>
+            </p> -->
         </div>
         <div class="mt-3 gap-4 flex flex-wrap justify-center">
-            <div v-for="project in projects" class="bg-black p-6 rounded-lg border max-w-sm m-1">
+            <div v-for="project in projects" class="bg-black p-6 rounded-lg border max-w-xs m-1">
                 <img class="w-100 rounded-xl" :src="project.imgproject" :alt="project.nameproject" srcset="">
                 <p class="text-2xl mt-2"> {{ project.nameproject }}</p>
                 <p class="text-gray-600 text-justify">Lorem ipsum dolor sit a   met consectetur adipisicing elit. Facilis adipisci eaque consequuntur earum expedita nulla mollitia porro magnam ducimus sit, molestias facere soluta possimus aperiam doloribus itaque eum corrupti quod.</p>
