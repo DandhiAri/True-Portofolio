@@ -5,9 +5,11 @@
         </div>
 
         <Contactinfo :email="portofolioData.contactinfo.email" :github="portofolioData.contactinfo.github" />
-        <section class="relative bg-[url(/img/4ktopo.jpg)] bg-repeat-round p-10">
+        <section class="relative p-10">
             <!-- <div class="absolute inset-y-0 left-1/2 z-0 w-[20px] -translate-x-1/2 bg-zinc-800 pointer-events-none"></div> -->
+            <div class="absolute -inset-1 bg-repeat-round opacity-30 bg-[url(/img/4ktopo.jpg)]" ></div>
 
+            <div class="absolute -inset-1 bg-gradient-to-b from-black via-black/50 to-transparent pointer-events-none"></div>
             <Projectsection class="relative z-999" :title="portofolioData.projects.title" :quote="portofolioData.projects.quote" :projects="portofolioData.projects.project"/>
         </section>
         <Footer :copyright="portofolioData.footer" />
@@ -27,7 +29,7 @@
             github: 'https://github.com/DandhiAri'
         },
         projects:{
-            title:"My Work So far... and yet still CONTINUE!",
+            title:"My Work So Far... and Yet Still CONTINUE!",
             // quote:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos necessitatibus numquam quo sit distinctio nisi, exercitationem officia.",
             project:[
                 {
