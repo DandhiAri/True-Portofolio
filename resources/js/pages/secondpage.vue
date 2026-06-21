@@ -1,11 +1,11 @@
 <template>
-    <div class="relative bg-black">
+    <div class="relative">
         <div class="relative">
             <Herobanner :name="portofolioData.name" :title="portofolioData.title" />
         </div>
 
         <Contactinfo :email="portofolioData.contactinfo.email" :github="portofolioData.contactinfo.github" />
-        <section class="body-content py-10">
+        <section class="bg-[url(/img/bg-project-white2.jpeg)] bg-repeat-round border-10 p-10">
             <Projectsection :title="portofolioData.projects.title" :quote="portofolioData.projects.quote" :projects="portofolioData.projects.project"/>
         </section>
         <Footer :copyright="portofolioData.footer" />
