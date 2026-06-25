@@ -1,7 +1,8 @@
 <template>
     <div class="bg-black relative p-10">
         <p class="text-lg text-gray-300 leading-relaxed">{{ content }}</p>
-        <div class="flex flex-wrap justify-center gap-3 mt-10 max-w-10xl mx-auto">
+        <div class="flex flex-wrap justify-center gap-3 mt-6 mx-auto">
+            <div class="text-xl font-bold text-zinc-300">Interested/Learning:</div>
             <div 
                 v-for="tool in tools" 
                 :key="tool.name" 
