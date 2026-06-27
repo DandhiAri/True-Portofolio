@@ -23,18 +23,18 @@
 
     const portofolioData = {
         name: 'Dandhi Dwi Ari Prasetya',
-        title: 'WEB DEVELOPER | NETWORK ENGINEER | IOT ENGINEER',
+        title: 'WEB DEVELOPER | COMPUTER ENGINEER | IOT ENGINEER',
         contactinfo: {
             email: 'dandhiari@gmail.com',
             github: 'https://github.com/DandhiAri'
         },
         biography: {
-            content: "Hello, I'm Dandhi Dwi Ari Prasetya, a passionate web developer and network engineer. I specialize in creating dynamic and responsive web applications, as well as designing and managing complex network infrastructures. With a strong foundation in both front-end and back-end development, I strive to deliver seamless user experiences and robust solutions. My expertise extends to IoT engineering, where I explore innovative ways to connect devices and enhance automation. I am committed to continuous learning and staying updated with the latest technologies to provide cutting-edge solutions.",
+            content: "HIII :D NICE TO MEET YOUU, Im a Computer Engineering fresh graduate (GPA 3.77) with a core foundation in software engineering. My technical focus spans End-to-End Web Development & IoT Integration, blending full-stack coding capabilities (frontend/backend) with hands-on network infrastructure configuration and hardware management. Currently, I am engineering a full-stack e-commerce platform for an export startup and developing several personal projects, including retail web platforms and a modern portfolio. I am looking for more experience and interested in working with projects and jobs that are relevant to the fields below:",
             tools: [
-                { name: 'HTML', icon: 'img/tools/html.png' },
-                { name: 'CSS', icon: 'img/tools/css.png' },
-                { name: 'JavaScript', icon: 'img/tools/javascript.png' },
-                { name: 'Vue.js', icon: 'img/tools/vue.png' },
+                { name: 'Web Development', icon: 'img/tools/html.png' },
+                { name: 'IT Support', icon: 'img/tools/css.png' },
+                { name: 'Networking', icon: 'img/tools/javascript.png' },
+                { name: 'Frontend Development', icon: 'img/tools/vue.png' },
                 { name: 'Laravel', icon: 'img/tools/laravel.png' },
                 { name: 'Node.js', icon: 'img/tools/nodejs.png' },
                 { name: 'Python', icon: 'img/tools/python.png' },
